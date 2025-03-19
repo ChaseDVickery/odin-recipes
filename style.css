@@ -14,12 +14,12 @@ h1 {
 }
 
 .recipe-link {
-    width: fit-content;
+    width: 90%;
     font-size: 20px;
     border-style: solid;
     border-width: 1px;
-    padding: 4px;
-    margin: 4px;
+    padding: 8px;
+    margin: 8px;
 }
 
 .image {
@@ -29,6 +29,15 @@ h1 {
 .thumbnail {
     width: 100px;
     height: auto;
+    vertical-align: middle;
+    border: solid black 1px;
+}
+
+.link-text {
+    display: inline-block;
+    margin: auto 0 auto 10px;
+    padding: 8px;
+    /* border: solid black 1px; */
 }
 
 .image.recipe {
