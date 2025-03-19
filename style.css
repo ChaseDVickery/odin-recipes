@@ -1,0 +1,39 @@
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    font-size: 30px;
+    
+}
+
+#home-title {
+    font-size: 42px;
+    text-align: center;
+}
+
+.recipe-link {
+    width: fit-content;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 4px;
+    margin: 4px;
+}
+
+.image {
+    height: auto;
+}
+
+.thumbnail {
+    width: 100px;
+    height: auto;
+}
+
+.image.recipe {
+    width: 100%;
+    border-color: black;
+    border-width: 3px;
+    border-style: double;
+}
